@@ -74,6 +74,7 @@ nav ul#navlist li a:hover {
         clear: right;
         list-style: none;
         font-weight: 400;
+        text-align: center;
     }
 
     nav.nav_closed ul#navlist {
@@ -88,6 +89,7 @@ nav ul#navlist li a:hover {
     nav.nav_open ul#navlist {
         display: block;
         background-color: rgba(0,0,0,0.85);
+        padding-right: 50px;
     }
 
     nav.nav_open a#menu {
@@ -96,7 +98,6 @@ nav ul#navlist li a:hover {
     }
 
     nav ul#navlist li a {
-        /*display: block;*/
         width: 100%;
         height: 100%;
         border-bottom: 1px #ccc solid;
@@ -228,6 +229,48 @@ hr#contact_underline {
     padding-bottom: 30px;
 }
 
+.boxes {
+    text-align: center;
+}
+
+.box1 {
+    background-color: #fff;
+    border-right:5px #EFEFEF solid;
+}
+
+.box2 {
+    background-color: #fff;
+    border-left: 5px #EFEFEF solid;
+}
+
+.program_title {
+    padding-top: 40px;
+}
+
+/* Portfolio ------------------------------*/
+.websitelink {
+	font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+a.websitelink:hover {
+    color: #E69D88;
+    text-decoration: none;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color: #525252;
+    border-color: #525252;
+}
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: #000;
+    border-color: #000;
+}
+
 /* Mobile Sections----------------------*/
 
 @media only screen and (min-width : 320px) {
@@ -245,7 +288,7 @@ hr#contact_underline {
         background-color: white;
         color: black;
         height: auto;
-        padding: 60px 0px;
+        padding: 80px 0px;
         text-align: center;
     }
 
@@ -268,30 +311,12 @@ hr#contact_underline {
             color: black;
             height: auto;
             width: 100%;
-            padding: 60px 0px;
+            padding: 80px 0px;
             text-align: center;
         }
 
         i {
             padding: 10px;
-        }
-
-        div.flex-grid {
-            display: block;
-        }
-
-        .col1 {
-            flex: 3;
-            background-color: #fff;
-        }
-
-        .col2 {
-            flex: 3;
-            background-color: #fff;
-        }
-
-        .boxes {
-            display: none;
         }
 
         div#pg_box {
@@ -304,7 +329,7 @@ hr#contact_underline {
         }
 
         div#pg_box h3 {
-            padding: 10px 0px;
+            padding: 4px 0px;
         }
 /* Portfolio ----------------------*/
         section#portfolio {
@@ -312,7 +337,7 @@ hr#contact_underline {
             color: black;
             width: 100%;
             height: auto;
-            padding-top: 60px;
+            padding-top: 80px;
         }
 
 /* Contact ----------------------*/
@@ -321,7 +346,7 @@ hr#contact_underline {
             color: black;
             width: 100%;
             height: auto;
-            padding: 60px 0px;
+            padding: 80px 0px;
             text-align: center;
         }
 
@@ -361,7 +386,7 @@ hr#contact_underline {
     max-width: 400px;
     margin: 0 auto; }
     #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-      background: rgba(254, 209, 54, 0.1);
+      background: rgba(230, 157, 136, 0.2);
       position: absolute;
       width: 100%;
       height: 100%;
@@ -481,11 +506,11 @@ hr#contact_underline {
 
     ::-moz-selection {
       text-shadow: none;
-      background: #afffe5; }
+      background: #E69D88; }
 
     ::selection {
       text-shadow: none;
-      background: #afffe5; }
+      background: #E69D88; }
 
     img::selection {
       background: transparent; }
@@ -515,27 +540,6 @@ hr#contact_underline {
             text-justify: inter-word;
         }
 /* Skills ----------------------*/
-        .grid {
-            display: flex;
-            flex-flow: row;
-            flex-wrap: wrap;
-        }
-
-        .u-textCenter {
-            text-align: center;
-        }
-
-        .Grid-cell {
-            flex: 1;
-        }
-
-        .col1 {
-            background-color: #fff;
-        }
-
-        .boxes {
-            display: none;
-        }
 
         div#pg_box {
             background-color: white;
@@ -543,9 +547,14 @@ hr#contact_underline {
             width: 250px;
             border: 5px #EFEFEF solid;
         }
+
+        div#pg_box h3 {
+            padding: 4px 0px;
+        }
+
 /* Contact ----------------------*/
         div.col-sm-3 {
-            width:50%;
+            width:30%;
             padding: 30px 20px;
         }
 
@@ -555,6 +564,18 @@ hr#contact_underline {
 
         #submit {
             width: 100px;
+        }
+
+        div.contact_items {
+            display: flex;
+            text-align: center;
+        }
+
+        div.contact_icon {
+            flex: 1;
+        }
+        div.second_icon {
+            padding-left: 100px
         }
 }
 
@@ -575,7 +596,7 @@ hr#contact_underline {
         color: black;
     	width: 100%;
     	height: auto;
-        padding: 60px 0px;
+        padding: 80px 0px;
     }
 
     div#about-me {
@@ -602,30 +623,13 @@ hr#contact_underline {
             color: black;
             height: auto;
             width: 100%;
-            padding: 60px 0px;
+            padding: 80px 0px;
             text-align: center;
         }
 
         i {
             padding: 10px;
         }
-
-        .grid {
-            display: none;
-        }
-
-        .Grid-cell {
-            display: none;
-        }
-
-        .boxes {
-            display: inline;
-        }
-
-        .skillbox {
-            background-color: #fff;
-        }
-
 
         div#box {
             display: block;
@@ -646,7 +650,6 @@ hr#contact_underline {
         }
 
         div#pg_box h3 {
-            padding: 10px 0px;
+            padding: 4px 0px;
         }
 }
-

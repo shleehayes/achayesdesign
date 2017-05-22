@@ -8,7 +8,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>AC Hayes Design</title>
+	<title>Ashley Hayes || Designer & Developer</title>
 
 	<!-- Bootstrap core CSS -->
 	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
@@ -69,7 +69,7 @@
 				<div class="col-sm-6">
 					<div id ="about-me">
 						<div class="col-lg-10">
-							<p class="aboutparagraph">I have always been the <strong>creative</strong> type, constantly doodling on a notepad or spacing out about what I can create <strong>next</strong>. Fast foward to my twenties when I <strong>discovered</strong> I could make a career out of what I am most passionate about,<strong> ART</strong>. I am currently a student nearing graduation for my bachelors in Media Arts & Design. My <strong>goal</strong> is to utilize my design and problem solving skills within an environment that <strong>encourages</strong> and <strong>promotes</strong> creativity and professionalism.</p>
+							<p class="aboutparagraph">I have always been the <strong>creative</strong> type, constantly doodling on a notepad or spacing out about what I can create <strong>next</strong>. Fast foward to my twenties when I <strong>discovered</strong> I could make a career out of what I am most passionate about,<strong> ART</strong>. I am graduating as valedictorian from Mt. Sierra College for my bachelors in Media Arts & Design. My <strong>goal</strong> is to utilize my design and problem solving skills within an environment that <strong>encourages</strong> and <strong>promotes</strong> creativity and professionalism.</p>
 						</div>
 					</div>
 				</div>
@@ -88,28 +88,15 @@
 					</div>
 				</div>
 			</div>
-			<div class="Grid Grid--gutters Grid--cols-2 u-textCenter">
-				<div class="Grid-cell col1">
+			<div class="row boxes">
+				<div class="col-md-6 box1">
 					<i class="fa fa-code fa-5x" aria-hidden="true"></i>
 						<h3>Web Design</h3>
 						<hr>
 						<p>I design and develop websites for a memorable experience with user friendly interfaces.</p>
 				</div>
-				<div class="Grid-cell col2">
-					<i class="fa fa-laptop fa-5x" aria-hidden="true"></i>
-						<h3>Visual Design</h3>
-						<hr>
-						<p>With an understanding of both graphic/ web design and user experience/ interface, problem solving is what I do. Come to me for your illustration, vector art, and logo / company branding needs! </p>
-				</div>
-			</div>
-			<div class="boxes">
-				<div class="skillbox">
-					<i class="fa fa-code fa-5x" aria-hidden="true"></i>
-						<h3>Web Design</h3>
-						<hr>
-						<p>I design and develop websites for a memorable experience with user friendly interfaces.</p>
-				</div>
-				<div class="skillbox">
+				<div class="col-md-offset-1"></div>
+				<div class="col-md-6 box2">
 					<i class="fa fa-laptop fa-5x" aria-hidden="true"></i>
 						<h3>Visual Design</h3>
 						<hr>
@@ -121,7 +108,7 @@
 			<div class="row">
 				<div class="col-lg-12 text-center">
 					<div>
-						<h1>PROGRAMS</h1>
+						<h1 class="program_title">PROGRAMS</h1>
 						<hr id="programs_underline">
 					</div>
 				</div>
@@ -176,8 +163,8 @@
 						<img src="img/portfolio/01-thumbnail.png" class="img-fluid" alt="">
 					</a>
 					<div class="portfolio-caption">
-						<h4>Wanderlust</h4>
-						<p class="text-muted">Identity</p>
+						<h4>Undefeated Inc.</h4>
+						<p class="text-muted">Web Design & Development</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 portfolio-item">
@@ -190,7 +177,7 @@
 						<img src="img/portfolio/02-thumbnail.png" class="img-fluid" alt="">
 					</a>
 					<div class="portfolio-caption">
-						<h4>Undefeated</h4>
+						<h4>McCoy University</h4>
 						<p class="text-muted">Web Design & Development</p>
 					</div>
 				</div>
@@ -204,8 +191,8 @@
 						<img src="img/portfolio/03-thumbnail.png" class="img-fluid" alt="">
 					</a>
 					<div class="portfolio-caption">
-						<h4>Max & the Moon</h4>
-						<p class="text-muted">Vector Illustration</p>
+						<h4>SampIt</h4>
+						<p class="text-muted">UI / UX Design Concept</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 portfolio-item">
@@ -218,8 +205,8 @@
 						<img src="img/portfolio/04-thumbnail.png" class="img-fluid" alt="">
 					</a>
 					<div class="portfolio-caption">
-						<h4>Frank</h4>
-						<p class="text-muted">Digital Illustration</p>
+						<h4>Wanderlust</h4>
+						<p class="text-muted">Brand Identity</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 portfolio-item">
@@ -232,8 +219,8 @@
 						<img src="img/portfolio/05-thumbnail.png" class="img-fluid" alt="">
 					</a>
 					<div class="portfolio-caption">
-						<h4>SampIt</h4>
-						<p class="text-muted">Web Design</p>
+						<h4>Woofy Bites</h4>
+						<p class="text-muted">Brand Identity</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 portfolio-item">
@@ -246,7 +233,7 @@
 						<img src="img/portfolio/06-thumbnail.png" class="img-fluid" alt="">
 					</a>
 					<div class="portfolio-caption">
-						<h4>The Joker</h4>
+						<h4>Max & the Moon</h4>
 						<p class="text-muted">Vector Illustration</p>
 					</div>
 				</div>
@@ -257,11 +244,11 @@
 								<i class="fa fa-plus fa-3x"></i>
 							</div>
 						</div>
-						<img src="img/portfolio/01-thumbnail.jpg" class="img-fluid" alt="">
+						<img src="img/portfolio/07-thumbnail.png" class="img-fluid" alt="">
 					</a>
 					<div class="portfolio-caption">
-						<h4>Cook Book</h4>
-						<p class="text-muted">Graphic Design</p>
+						<h4>The Joker</h4>
+						<p class="text-muted">Vector Illustration</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 portfolio-item">
@@ -271,11 +258,11 @@
 								<i class="fa fa-plus fa-3x"></i>
 							</div>
 						</div>
-						<img src="img/portfolio/02-thumbnail.jpg" class="img-fluid" alt="">
+						<img src="img/portfolio/08-thumbnail.png" class="img-fluid" alt="">
 					</a>
 					<div class="portfolio-caption">
-						<h4>Woofy Bites</h4>
-						<p class="text-muted">Identity</p>
+						<h4>Frank</h4>
+						<p class="text-muted">Digital Illustration</p>
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 portfolio-item">
@@ -310,56 +297,29 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-6">
-					<div class="col-sm-offset-2">
+				<div class="col-lg-6 contact_items">
+					<div class="col-sm-3">
 						<div class="contact_icon">
 							<span class="fa-stack fa-3x">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+							<i class="fa fa-phone-square fa-stack-2x fa-inverse" aria-hidden="true"></i>
 							</span>
 						</div>
 						<h2 class="bold">PHONE</h2>
-						<p>909.418.4783</p>
+						<p>323.863.6347</p>
 					</div>
-					<div class="col-sm-offset-2">
+					<div class="col-sm-3 second_icon">
 						<div class="contact_icon">
 							<span class="fa-stack fa-3x">
-								<i class="fa fa-circle fa-stack-2x"></i>
-								<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+							<i class="fa fa-envelope fa-stack-2x fa-inverse" aria-hidden="true"></i>
 							</span>
 						</div>
 						<h2 class="bold">EMAIL</h2>
-						<p>ashleychristinehayes@gmail.com</p>
+						<p>hello@ashleyhayes.design</p>
 					</div>
 				</div>
-				<!-- <div class="col-md-6">
-					<form class="form-hortizonal" role="form" action="index.php" method="post">
-						<div class="form-group">
-							<label for="name" class="col-sm-2 control-label">Name</label>
-							<div class="col-sm-10">
-								<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="email" class="col-sm-2 control-label">Email</label>
-							<div class="col-sm-10">
-								<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="message" class="col-sm-2 control-label">Message</label>
-							<div class="col-sm-10">
-								<textarea class="form-control" rows="4" id="message" name="message" placeholder="Type your message here..."></textarea>
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="col-sm-10 col-sm-offset-2">
-								<input id="submit" name="submit" type="submit" value="Send" class="btn">
-							</div>
-						</div>
-					</form>
-				</div> -->
-				<div class="col-md-6">
+
+		<!-- Email Form -->
+				<div class="col-lg-6">
 					<form name="sentMessage" id="contactForm" novalidate>
 							<div class="col-sm-10">
 								<div class="form-group">
@@ -388,6 +348,7 @@
 							</div>
 					</form>
 				</div>
+
 			</div>
 		</div>
 	</section>
@@ -399,11 +360,11 @@
 				<div class="col-lg-12 text-center">
 					<div class="col-md-12">
 	                    <ul class="list-inline social-buttons">
-	                        <li class="list-inline-item"><a href="https://www.facebook.com/ashley.hayes.98096721"><i class="fa fa-facebook fa-2x"></i></a>
+	                        <li class="list-inline-item"><a href="https://www.facebook.com/ashley.hayes.98096721" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
 	                        </li>
-	                        <li class="list-inline-item"><a href="https://github.com/shleehayes"><i class="fa fa-github fa-2x"></i></a>
+	                        <li class="list-inline-item"><a href="https://github.com/shleehayes" target="_blank"><i class="fa fa-github fa-2x"></i></a>
 	                        </li>
-	                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/ashleychayes"><i class="fa fa-linkedin fa-2x"></i></a>
+	                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/ashleychayes" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
 	                        </li>
 	                    </ul>
 		            </div>
@@ -434,17 +395,16 @@
                         <div class="col-lg-8 offset-lg-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Wanderlust</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.png" alt="">
-								<img class="img-fluid d-block mx-auto" src="img/portfolio/01-full2.png" alt="">
-								<img class="img-fluid d-block mx-auto" src="img/portfolio/01-full3.png" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <h2>Undefeated Inc.</h2>
+																	<p class="item-intro text-muted">Mockup website for a company called Undefeated, Inc.</p>
+	                                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.png" alt="">
+																	<img class="img-fluid d-block mx-auto" src="img/portfolio/01-full2.png" alt="">
                                 <ul class="list-inline">
-                                    <li>Date: Spring 2016</li>
-                                    <li>Client: Professor Seng</li>
-                                    <li>Category: Brand Identity</li>
+                                    <li>Date: Summer 2016-Winter 2017</li>
+                                    <li>Client: Professor Patel/ Professor Gohmen</li>
+                                    <li>Category: Web Design & Development</li>
                                 </ul>
+																	<a href="http://undefeated.ashleyhayes.design/" target="_blank" class="websitelink">VIEW WEBSITE HERE</a>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -469,15 +429,17 @@
                         <div class="col-lg-8 offset-lg-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <h2>McCoy University</h2>
+                                <p class="item-intro text-muted">Mockup website for a dog training company made on Muse.</p>
+                                	<img class="img-fluid d-block mx-auto" src="img/portfolio/mccoy1.png" alt="">
+																	<img class="img-fluid d-block mx-auto" src="img/portfolio/mccoy2.png" alt="">
+																	<img class="img-fluid d-block mx-auto" src="img/portfolio/mccoy3.png" alt="">
                                 <ul class="list-inline">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Explore</li>
-                                    <li>Category: Graphic Design</li>
+                                    <li>Date: Summer 2016</li>
+                                    <li>Client: Professor Mahmood</li>
+                                    <li>Category: Web Design</li>
                                 </ul>
+																	<a href="http://mccoyuniversity.ashleyhayes.design/" target="_blank" class="websitelink">VIEW WEBSITE HERE</a>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -502,14 +464,16 @@
                         <div class="col-lg-8 offset-lg-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.png" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <h2>SampIt</h2>
+                                <p class="item-intro text-muted">Concept design for an application.</p>
+                                	<img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.png" alt="">
+																	<img class="img-fluid d-block mx-auto" src="img/portfolio/03-full2.png" alt="">
+																	<img class="img-fluid d-block mx-auto" src="img/portfolio/03-full4.png" alt="">
+																	<img class="img-fluid d-block mx-auto" src="img/portfolio/03-full3.png" alt="">
                                 <ul class="list-inline">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Finish</li>
-                                    <li>Category: Identity</li>
+                                    <li>Date: Summer 2016</li>
+                                    <li>Client: Professor Hernandez</li>
+                                    <li>Category: UI/UX Design</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -535,14 +499,15 @@
                         <div class="col-lg-8 offset-lg-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.png" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <h2>Wanderlust</h2>
+																<p class="item-intro text-muted">Standards manual for mockup company.</p>
+	                                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.png" alt="">
+																	<img class="img-fluid d-block mx-auto" src="img/portfolio/04-full2.png" alt="">
+																	<img class="img-fluid d-block mx-auto" src="img/portfolio/04-full3.png" alt="">
                                 <ul class="list-inline">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Lines</li>
-                                    <li>Category: Branding</li>
+                                    <li>Date: Spring 2016</li>
+                                    <li>Client: Professor Seng</li>
+                                    <li>Category: Brand Identity</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -568,15 +533,15 @@
                         <div class="col-lg-8 offset-lg-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.png" alt="">
-								<img class="img-fluid d-block mx-auto" src="img/portfolio/05-full2.png" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <h2>Woofy Bites</h2>
+                                <p class="item-intro text-muted">An organic dog food brand.</p>
+                                	<img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.png" alt="">
+																	<img class="img-fluid d-block mx-auto" src="img/portfolio/05-full2.png" alt="">
+                                <!-- <p></p> -->
                                 <ul class="list-inline">
-                                    <li>Date: Spring 2016</li>
-                                    <li>Client: Professor Hernandez</li>
-                                    <li>Category: Website Design</li>
+                                    <li>Date: Fall 2016</li>
+                                    <li>Client: Professor Hovsepyan</li>
+                                    <li>Category: Brand Identity</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -602,14 +567,13 @@
                         <div class="col-lg-8 offset-lg-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.png" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <h2>Max & the Moon</h2>
+                                <p class="item-intro text-muted">Indie band poster.</p>
+                                	<img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.png" alt="">
                                 <ul class="list-inline">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Window</li>
-                                    <li>Category: Photography</li>
+                                    <li>Date: Fall 2015</li>
+                                    <li>Client: Professor Gardea</li>
+                                    <li>Category: Vector Illustration</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -635,14 +599,13 @@
                         <div class="col-lg-8 offset-lg-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <h2>The Joker</h2>
+                                <p class="item-intro text-muted">Propaganda poster.</p>
+                                	<img class="img-fluid d-block mx-auto" src="img/portfolio/07-full.png" alt="">
                                 <ul class="list-inline">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Threads</li>
-                                    <li>Category: Illustration</li>
+                                    <li>Date: Fall 2015</li>
+                                    <li>Client: Professor Gardea</li>
+                                    <li>Category: Vector Illustration</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -668,14 +631,16 @@
                         <div class="col-lg-8 offset-lg-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <h2>Frank</h2>
+                                <p class="item-intro text-muted">Digital illustration done in Photoshop.</p>
+																<p>REFERENCE PHOTO</p>
+																	<img class="img-fluid d-block mx-auto" src="img/portfolio/08-full-ref.png" alt="">
+																<p>DIGITAL PAINTING</p>
+                                	<img class="img-fluid d-block mx-auto" src="img/portfolio/08-full.png" alt="">
                                 <ul class="list-inline">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Explore</li>
-                                    <li>Category: Graphic Design</li>
+                                    <li>Date: Winter 2016</li>
+                                    <li>Client: Professor Tomlinson</li>
+                                    <li>Category: Digital Illustration</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
@@ -701,14 +666,16 @@
                         <div class="col-lg-8 offset-lg-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="img/portfolio/09-full.png" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <h2>Groot</h2>
+                                <p class="item-intro text-muted">Two hour digitial illustration study.</p>
+																<p>REFERENCE PHOTO</p>
+																	<img class="img-fluid d-block mx-auto" src="img/portfolio/09-full-ref.png" alt="">
+																<p>DIGITAL PAINTING</p>
+                                	<img class="img-fluid d-block mx-auto" src="img/portfolio/09-full.png" alt="">
                                 <ul class="list-inline">
-                                    <li>Date: January 2017</li>
-                                    <li>Client: Finish</li>
-                                    <li>Category: Identity</li>
+                                    <li>Date: Winter 2016</li>
+                                    <li>Client: Professor Tomlinson</li>
+                                    <li>Category: Digital Illustration</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
