@@ -8,6 +8,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
+	<link rel="icon" href="img/ashley-favicon.png">
 	<title>Ashley Hayes || Designer & Developer</title>
 
 	<!-- Bootstrap core CSS -->
@@ -59,18 +60,16 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-6">
+				<div class="col-sm-8">
 					<div id ="about-me">
-						<img class="aboutpic" src="assets/images/aboutpic.jpg">
+						<img class="aboutpic" src="img/aboutpic.jpg">
 					</div>
 					<h2 class="aboutinfo">ASHLEY CHRISTINE HAYES</h2>
 					<h4 class="aboutinfo">Web Developer / Visual Designer</h4>
 				</div>
-				<div class="col-sm-6">
+				<div class="col-sm-4">
 					<div id ="about-me">
-						<div class="col-lg-10">
 							<p class="aboutparagraph">I have always been the <strong>creative</strong> type, constantly doodling on a notepad or spacing out about what I can create <strong>next</strong>. Fast foward to my twenties when I <strong>discovered</strong> I could make a career out of what I am most passionate about,<strong> ART</strong>. I am graduating as valedictorian from Mt. Sierra College for my bachelors in Media Arts & Design. My <strong>goal</strong> is to utilize my design and problem solving skills within an environment that <strong>encourages</strong> and <strong>promotes</strong> creativity and professionalism.</p>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -297,29 +296,21 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-lg-6 contact_items">
-					<div class="col-sm-3">
-						<div class="contact_icon">
-							<span class="fa-stack fa-3x">
-							<i class="fa fa-phone-square fa-stack-2x fa-inverse" aria-hidden="true"></i>
-							</span>
-						</div>
-						<h2 class="bold">PHONE</h2>
-						<p>323.863.6347</p>
-					</div>
-					<div class="col-sm-3 second_icon">
-						<div class="contact_icon">
-							<span class="fa-stack fa-3x">
-							<i class="fa fa-envelope fa-stack-2x fa-inverse" aria-hidden="true"></i>
-							</span>
-						</div>
-						<h2 class="bold">EMAIL</h2>
-						<p>hello@ashleyhayes.design</p>
-					</div>
+				<div class="col-md-12 col-sm-offset-2 text-center">
+					<h4 class="contactinfo">Ready to start your next project with me? Give me a call or send me an email and I will get back to you as soon as possible!</h4>
 				</div>
+				<div class="col-lg-6 col-lg-offset-2 text-center contact_icon">
+						<i class="fa fa-phone fa-3x fa-inverse"></i>
+						<p>323.863.6347</p>
+				</div>
+				<div class="col-lg-6 text-center contact_icon">
+						<i class="fa fa-envelope-o fa-3x fa-inverse"></i>
+						<p><a href="mailto:hello@ashleyhayes.design">hello@ashleyhayes.design</a></p>
+				</div>
+			</div>
 
 		<!-- Email Form -->
-				<div class="col-lg-6">
+				<!-- <div class="col-lg-6">
 					<form name="sentMessage" id="contactForm" novalidate>
 							<div class="col-sm-10">
 								<div class="form-group">
@@ -347,7 +338,7 @@
 								<button type="submit" class="btn btn-xl">Send Message</button>
 							</div>
 					</form>
-				</div>
+				</div> -->
 
 			</div>
 		</div>
@@ -396,6 +387,8 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Undefeated Inc.</h2>
+																<a href="http://undefeated.ashleyhayes.design/" target="_blank" class="websitelink">VIEW WEBSITE HERE</a>
+
 																	<p class="item-intro text-muted">Mockup website for a company called Undefeated, Inc.</p>
 	                                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.png" alt="">
 																	<img class="img-fluid d-block mx-auto" src="img/portfolio/01-full2.png" alt="">
@@ -404,7 +397,17 @@
                                     <li>Client: Professor Patel/ Professor Gohmen</li>
                                     <li>Category: Web Design & Development</li>
                                 </ul>
-																	<a href="http://undefeated.ashleyhayes.design/" target="_blank" class="websitelink">VIEW WEBSITE HERE</a>
+
+																<ul class ="list-inline"><strong>Technologies Used</strong>:
+																	<li>Photoshop CC</li>
+																	<li>Illustrator CC</li>
+																	<li>HTML5 + CSS3</li>
+																	<li>JavaScript</li>
+																	<li>PHP</li>
+																	<li>MySQL</li>
+																	<li>WordPress</li>
+																</ul>
+
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -430,16 +433,23 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>McCoy University</h2>
-                                <p class="item-intro text-muted">Mockup website for a dog training company made on Muse.</p>
+																<a href="http://mccoyuniversity.ashleyhayes.design/" target="_blank" class="websitelink">VIEW WEBSITE HERE</a>
+
+                                <p class="item-intro text-muted">Mockup website for a dog training company.</p>
                                 	<img class="img-fluid d-block mx-auto" src="img/portfolio/mccoy1.png" alt="">
-																	<img class="img-fluid d-block mx-auto" src="img/portfolio/mccoy2.png" alt="">
-																	<img class="img-fluid d-block mx-auto" src="img/portfolio/mccoy3.png" alt="">
                                 <ul class="list-inline">
                                     <li>Date: Summer 2016</li>
                                     <li>Client: Professor Mahmood</li>
                                     <li>Category: Web Design</li>
                                 </ul>
-																	<a href="http://mccoyuniversity.ashleyhayes.design/" target="_blank" class="websitelink">VIEW WEBSITE HERE</a>
+
+																<ul class ="list-inline"><strong>Technologies Used</strong>:
+																	<li>Illustrator CC</li>
+																	<li>HTML5 + CSS3</li>
+																	<li>JavaScript</li>
+																	<li>PHP</li>
+																</ul>
+
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -475,6 +485,12 @@
                                     <li>Client: Professor Hernandez</li>
                                     <li>Category: UI/UX Design</li>
                                 </ul>
+
+																<ul class ="list-inline"><strong>Technologies Used</strong>:
+																	<li>Photoshop CC</li>
+																	<li>Illustrator CC</li>
+																</ul>
+
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -500,7 +516,7 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Wanderlust</h2>
-																<p class="item-intro text-muted">Standards manual for mockup company.</p>
+																<p class="item-intro text-muted">Brand design for a mockup company.</p>
 	                                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.png" alt="">
 																	<img class="img-fluid d-block mx-auto" src="img/portfolio/04-full2.png" alt="">
 																	<img class="img-fluid d-block mx-auto" src="img/portfolio/04-full3.png" alt="">
@@ -509,6 +525,12 @@
                                     <li>Client: Professor Seng</li>
                                     <li>Category: Brand Identity</li>
                                 </ul>
+
+																<ul class ="list-inline"><strong>Technologies Used</strong>:
+																	<li>Illustrator CC</li>
+																	<li>InDesign CC</li>
+																</ul>
+
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -543,6 +565,12 @@
                                     <li>Client: Professor Hovsepyan</li>
                                     <li>Category: Brand Identity</li>
                                 </ul>
+
+																<ul class ="list-inline"><strong>Technologies Used</strong>:
+																	<li>Photoshop CC</li>
+																	<li>Illustrator CC</li>
+																</ul>
+
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -575,6 +603,10 @@
                                     <li>Client: Professor Gardea</li>
                                     <li>Category: Vector Illustration</li>
                                 </ul>
+
+																<ul class ="list-inline"><strong>Technologies Used</strong>:
+																	<li>Illustrator CC</li>
+																</ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -607,6 +639,11 @@
                                     <li>Client: Professor Gardea</li>
                                     <li>Category: Vector Illustration</li>
                                 </ul>
+
+																<ul class ="list-inline"><strong>Technologies Used</strong>:
+																	<li>Illustrator CC</li>
+																</ul>
+
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -632,16 +669,21 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 <h2>Frank</h2>
-                                <p class="item-intro text-muted">Digital illustration done in Photoshop.</p>
-																<p>REFERENCE PHOTO</p>
+                                <p class="item-intro text-muted">Digital illustration.</p>
+																<h3>REFERENCE PHOTO</h3>
 																	<img class="img-fluid d-block mx-auto" src="img/portfolio/08-full-ref.png" alt="">
-																<p>DIGITAL PAINTING</p>
+																<h3>DIGITAL PAINTING</h3>
                                 	<img class="img-fluid d-block mx-auto" src="img/portfolio/08-full.png" alt="">
                                 <ul class="list-inline">
                                     <li>Date: Winter 2016</li>
                                     <li>Client: Professor Tomlinson</li>
                                     <li>Category: Digital Illustration</li>
                                 </ul>
+
+																<ul class ="list-inline"><strong>Technologies Used</strong>:
+																	<li>Photoshop CC</li>
+																</ul>
+
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -668,15 +710,20 @@
                                 <!-- Project Details Go Here -->
                                 <h2>Groot</h2>
                                 <p class="item-intro text-muted">Two hour digitial illustration study.</p>
-																<p>REFERENCE PHOTO</p>
+																<h3>REFERENCE PHOTO</h3>
 																	<img class="img-fluid d-block mx-auto" src="img/portfolio/09-full-ref.png" alt="">
-																<p>DIGITAL PAINTING</p>
+																<h3>DIGITAL PAINTING</h3>
                                 	<img class="img-fluid d-block mx-auto" src="img/portfolio/09-full.png" alt="">
                                 <ul class="list-inline">
                                     <li>Date: Winter 2016</li>
                                     <li>Client: Professor Tomlinson</li>
                                     <li>Category: Digital Illustration</li>
                                 </ul>
+
+																<ul class ="list-inline"><strong>Technologies Used</strong>:
+																	<li>Photoshop CC</li>
+																</ul>
+
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
